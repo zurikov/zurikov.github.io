@@ -25,6 +25,7 @@ body {
 	padding: 10px 30px;
 	color: #fff;
 	transition: 0.5s;
+	max-width: 200px;
 }
 .headerLogo:hover {
 	color: var(--clr);
@@ -47,9 +48,8 @@ body {
 	transition: 0.5s;
 	border: 2px solid white;
 	right: 30px;
+	max-width: 200px;
 }
 .headerGithub:hover {
-	box-shadow: 0 0 5px var(--clr);
-	letter-spacing: 0.25em;
-	padding: 7px 25px;
+	box-shadow: 0 0 10px var(--clr);
 }
